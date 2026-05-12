@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Outputs (giữ structure nhưng không commit data file lớn)
+*.log
+.DS_Store
+cost_log.jsonl
+audit_log.jsonl
+
+# Notebook
+.ipynb_checkpoints/
+
+# Demo video binary
+demo/*.mp4
+demo/*.mov
+
+# Cache
+.cache/
+*.bak
